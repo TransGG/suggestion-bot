@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const config = require("./config.js");
 
 const client = new Discord.Client({
-    intents: ['Guilds', 'GuildMembers', 'GuildMessages', 'GuildMessageReactions'],
+    intents: ['Guilds', 'GuildMessages', 'GuildMessageReactions'],
     partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
 });
 
